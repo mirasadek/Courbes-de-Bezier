@@ -1,17 +1,2 @@
 *.c linguist-language=C
 *.h linguist-language=C
-src/*.c linguist-language=C
-src/*.h linguist-language=C
-
-# Create .gitattributes with the correct content
-echo "*.c linguist-language=C
-*.h linguist-language=C" > .gitattributes
-
-# Stage the file
-git add .gitattributes
-
-# Commit the change
-git commit -m "Fix language detection to C"
-
-# Push to GitHub
-git push
